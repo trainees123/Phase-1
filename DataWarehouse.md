@@ -32,10 +32,10 @@ It plays an important role as it specifies the source, usage, values, and featur
 One of the primary objects of data warehousing is to provide information to businesses to make strategic decisions. Query tools allow users to interact with the data warehouse system.
 
 These tools fall into four different categories:
-  + Query and reporting tools
-  + Application Development tools
-  + Data mining tools
-  + OLAP tools
+  a. Query and reporting tools
+  b. Application Development tools
+  c. Data mining tools
+  d. OLAP tools
 
 + **Data warehouse Bus Architecture**
 Data warehouse Bus determines the flow of data in your warehouse.  The data flow in a data warehouse can be categorised as Inflow, Upflow, Downflow, Ooutflow and Metaflow.
