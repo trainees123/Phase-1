@@ -30,7 +30,6 @@ It plays an important role as it specifies the source, usage, values, and featur
 
 + **Query Tools**
 One of the primary objects of data warehousing is to provide information to businesses to make strategic decisions. Query tools allow users to interact with the data warehouse system.
-
 These tools fall into four different categories:
   - Query and reporting tools
   - Application Development tools
