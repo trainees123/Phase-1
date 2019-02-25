@@ -19,7 +19,7 @@ There are mainly five components of data warehouse:
 
 The central database is the foundation of the data warehousing environment.
 
-+ ** Sourcing, Acquistion, Clean-up and Transformation tools (ETL)**
++ **Sourcing, Acquistion, Clean-up and Transformation tools (ETL)**
 
 The data sourcing, transformation, and migration tools are used for performing all the conversions, summarizations, and all the changes needed to transform data into a unified format in the datawarehouse. They are also called Extract, Transform and Load (ETL) Tools.
 
@@ -32,12 +32,12 @@ It plays an important role as it specifies the source, usage, values, and featur
 One of the primary objects of data warehousing is to provide information to businesses to make strategic decisions. Query tools allow users to interact with the data warehouse system.
 
 These tools fall into four different categories:
- + Query and reporting tools
- + Application Development tools
- + Data mining tools
- + OLAP tools
+  + Query and reporting tools
+  + Application Development tools
+  + Data mining tools
+  + OLAP tools
 
-+ ** Data warehouse Bus Architecture**
++ **Data warehouse Bus Architecture**
 Data warehouse Bus determines the flow of data in your warehouse.  The data flow in a data warehouse can be categorised as Inflow, Upflow, Downflow, Ooutflow and Metaflow.
 While designing a Data Bus, the shared dimensions and facts across data marts need to be considered. A *data mart* is an access layer which is used to get data out to the users. 
 It is presented as an option for large size data warehouse as it takes less time and money to build.  
