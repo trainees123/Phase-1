@@ -15,22 +15,18 @@ environment functional, manageable and accessible.
 
 There are mainly five components of data warehouse:
 
-+ **Data Warehouse Database**
-
++ **Data Warehouse Database:**
 The central database is the foundation of the data warehousing environment.
 
-+ **Sourcing, Acquistion, Clean-up and Transformation tools (ETL)**
-
++ **Sourcing, Acquistion, Clean-up and Transformation tools (ETL):**
 The data sourcing, transformation, and migration tools are used for performing all the conversions, summarizations, and all the changes needed to transform data into a unified format in the datawarehouse. They are also called Extract, Transform and Load (ETL) Tools.
 
-+ **Metadata**
-
++ **Metadata:**
 Metadata is data about data which defines the data warehouse. It is used for building, maintaining and managing the data warehouse.
 It plays an important role as it specifies the source, usage, values, and features of data warehouse data. It also defines how data can be changed and processed. It is closely connected to the data warehouse.
 *Meta Data are essential ingredients in the transformation of data into knowledge.*
 
-+ **Query Tools**
-
++ **Query Tools:**
 One of the primary objects of data warehousing is to provide information to businesses to make strategic decisions. Query tools allow users to interact with the data warehouse system.
 These tools fall into four different categories:
   - Query and reporting tools
@@ -38,9 +34,8 @@ These tools fall into four different categories:
   - Data mining tools
   - OLAP tools
 
-+ **Data warehouse Bus Architecture**
-
-Data warehouse Bus determines the flow of data in your warehouse.  The data flow in a data warehouse can be categorised as Inflow, Upflow, Downflow, Ooutflow and Metaflow.
++ **Data warehouse Bus Architecture:**
+It determines the flow of data in your warehouse.  The data flow in a data warehouse can be categorised as Inflow, Upflow, Downflow, Ooutflow and Metaflow.
 While designing a Data Bus, the shared dimensions and facts across data marts need to be considered. A *data mart* is an access layer which is used to get data out to the users. 
 It is presented as an option for large size data warehouse as it takes less time and money to build.  
 
