@@ -14,13 +14,13 @@ E.g., Documents, images, videos. Log files, VM Disks.
 
 Fill the following required fields:
 
-- **Project details:**
+ **Project details:**
   - Subscription
   - Resource group
     
     (A resource group is a  logical container that holds related resources for an Azure solution.)
 
-- **Instance details:**
+ **Instance details:**
   - Storage Account Name
    
    (The name must be unique across all existing storage account names in Azure.  It must have 3 to 24 characters and can contain only lowercase letters and numbers.) ure. It must be 3 to 24 characters long, a
