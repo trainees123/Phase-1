@@ -26,7 +26,7 @@ Fill the following required fields:
    (The name must be unique across all existing storage account names in Azure.  It must have 3 to 24 characters and can contain only lowercase letters and numbers.) ure. It must be 3 to 24 characters long, a
   - Location
   - Performance: There are two available options-
-    - Standard: backed by magnetic drives and provide the lowest cost per GB; best for bulk storage or where data is accessed infrequently.
+   - Standard: backed by magnetic drives and provide the lowest cost per GB; best for bulk storage or where data is accessed infrequently.
      b. Premium: Backed by solid state drives and offer consistent, low-latency performance. Can only be used with Azure virtual machine disks.  
 
 This setting can not be changed after the storage account is created.
