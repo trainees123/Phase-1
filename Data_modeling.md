@@ -88,7 +88,7 @@ Data centricity is the point of view determining the modeling of primary entity.
 
 
 
-##Types of Data Models:
+## Types of Data Models:
 
 ![There are three main types of data models](https://www.guru99.com/images/1/022218_0657_WhatisDataM1.png)
 
@@ -244,11 +244,14 @@ Organizations routinely make data-driven business decisions, and with data witho
 
 Data integrity is enforced in both hierarchical and relational database models. The following three integrity constraints are used in a relational database structure to achieve data integrity:
 
-### Entity Integrity:This is concerned with the concept of primary keys. The rule states that every table must have its own primary key and that each has to be unique and not null.
+### Entity Integrity:
+This is concerned with the concept of primary keys. The rule states that every table must have its own primary key and that each has to be unique and not null.
 
-### Referential Integrity: This is the concept of foreign keys. The rule states that the foreign key value can be in two states. The first state is that the foreign key value would refer to a primary key value of another table, or it can be null. Being null could simply mean that there are no relationships, or that the relationship is unknown.
+### Referential Integrity:
+This is the concept of foreign keys. The rule states that the foreign key value can be in two states. The first state is that the foreign key value would refer to a primary key value of another table, or it can be null. Being null could simply mean that there are no relationships, or that the relationship is unknown.
 
-### Domain Integrity: This states that all columns in a relational database are in a defined domain.
+### Domain Integrity: 
+This states that all columns in a relational database are in a defined domain.
 
 
 
@@ -260,7 +263,7 @@ Having a single, well-defined and well-controlled data integrity system increase
 
 ## Data Integrity checklist:
 
-![A picture speaks a thousand words] (https://blogvaronis2.wpengine.com/wp-content/uploads/2018/03/data-integrity-checklist.png)
+![A picture speaks a thousand words](https://blogvaronis2.wpengine.com/wp-content/uploads/2018/03/data-integrity-checklist.png)
 
 
 
