@@ -2,11 +2,11 @@
 Azure Storage, a component of Azure, is a Microsoft-managed service providing cloud storage that is highly available, secure, durable, scalable, and redundant. Azure Storage includes Azure Blobs (objects), Azure Data Lake Storage Gen2, Azure Files, Azure Queues, and Azure Tables.  A storage account needs to be created to use Azure Storage.  Multiple Storage Accounts can be created in an Azure Subscription.
 
 **More on types of storage accounts:**
-- Blobs Storage: Binary Large Objects; any type of file or binary data and for storing unstructured data.
+- **Blobs Storage:** Binary Large Objects; any type of file or binary data and for storing unstructured data.
 E.g., Documents, images, videos. Log files, VM Disks.
-- Table Storage: Tables to store data; they have no schema.  Developers can use table storage to develop based on fast changing requirements.
-- Queue Storage:  When distributed applications need to communicate asynchronously, this is one mechanism.
-- File Storage:  It's similar to file share.  It can be mapped using a network drive.
+- **Table Storage:** Tables to store data; they have no schema.  Developers can use table storage to develop based on fast changing requirements.
+- **Queue Storage:** When distributed applications need to communicate asynchronously, this is one mechanism.
+- **File Storage:**  It's similar to file share.  It can be mapped using a network drive.
 
 ## CREATING A STORAGE ACCOUNT:
 
@@ -51,17 +51,17 @@ Select Review + Create to review the storage account settings and create the acc
 ## CREATING A BLOB:
 Blob is a massively scalable storage object for unstructured data.  It can scale up or down based on the need, making it easily manageable and cost effective.  
 
-To create a blob storage, choose the storage account in which the files need to be stored in.
+- To create a blob storage, choose the storage account in which the files need to be stored in.
 
-Under 'Services', select 'Blobs'.
+- Under 'Services', select 'Blobs'.
 
-Select 'Container' to create a container.  Give a name to the container and set the appropriate public access level.
+- Select 'Container' to create a container.  Give a name to the container and set the appropriate public access level.
 
-Click 'OK' to create the container.
+- Click 'OK' to create the container.
 
-From the list of containers available, click on the one in which the files need to be saved.
+- From the list of containers available, click on the one in which the files need to be saved.
 
-Click on 'Upload'  and browse to upload files to the container.
+- Click on 'Upload'  and browse to upload files to the container.
 
 
 # VIRTUAL MACHINE
@@ -77,6 +77,7 @@ Go to 'Create Virtual Machine'.  Fill the following required fields
   - Public inbound ports
 
 Click Next: Disks >
+
 -  Disk options:
   - OS disk type (Premium SSD, Standard SSD, Standard HDD)
   - Data disks (default option)
