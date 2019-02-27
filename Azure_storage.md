@@ -14,35 +14,40 @@ E.g., Documents, images, videos. Log files, VM Disks.
 
 Fill the following required fields:
 
-- Project details:
+- **Project details:**
   - Subscription
   - Resource group
     
     (A resource group is a  logical container that holds related resources for an Azure solution.)
 
-- Instance details:
- - Storage Account Name
+- **Instance details:**
+  - Storage Account Name
    
    (The name must be unique across all existing storage account names in Azure.  It must have 3 to 24 characters and can contain only lowercase letters and numbers.) ure. It must be 3 to 24 characters long, a
+  
   - Location
+  
   - Performance: There are two available options-
-     a. Standard: backed by magnetic drives and provide the lowest cost per GB; best for bulk storage or where data is accessed infrequently.
-     b. Premium: Backed by solid state drives and offer consistent, low-latency performance. Can only be used with Azure virtual machine disks.  
+     - Standard: backed by magnetic drives and provide the lowest cost per GB; best for bulk storage or where data is accessed infrequently.
+     - Premium: Backed by solid state drives and offer consistent, low-latency performance. Can only be used with Azure virtual machine disks.  
 
 This setting can not be changed after the storage account is created.
+  
   - Acount kind:  Three types are available
-    a. General-purpose v2 accounts: Basic storage account type for blobs, files, queues, and tables.
+    - General-purpose v2 accounts: Basic storage account type for blobs, files, queues, and tables.
        Recommended for most scenarios using Azure Storage.
-    b. General-purpose v1 accounts: Legacy account type for blobs, files, queues, and tables. Use general purpose v2 accounts instead when possible.
-    c. Blob storage accounts: Blob-only storage accounts. Use general-purpose v2 accounts instead when possible.
-  - Replication: Replication options for a storage account include:
-    a. Locally-redundant storage(LRS): A simple, low-cost replication strategy. Data is replicated within a single storage scale unit.
-    b. Zone-redundant storage (ZRS): Replication for high availability and durability. Data is replicated synchronously across three availability zones.
-    c. Geo-redundant storage (GRS): Cross-regional replication to protect against region-wide unavailability.
-    d. Read-access geo-redundant storage (RA_GRS): Cross-regional replication with read access to the replica.
+    - General-purpose v1 accounts: Legacy account type for blobs, files, queues, and tables. Use general purpose v2 accounts instead when possible.
+    - Blob storage accounts: Blob-only storage accounts. Use general-purpose v2 accounts instead when possible.
+ 
+ - Replication: Replication options for a storage account include:
+    - Locally-redundant storage(LRS): A simple, low-cost replication strategy. Data is replicated within a single storage scale unit.
+    - Zone-redundant storage (ZRS): Replication for high availability and durability. Data is replicated synchronously across three availability zones.
+    - Geo-redundant storage (GRS): Cross-regional replication to protect against region-wide unavailability.
+    - Read-access geo-redundant storage (RA_GRS): Cross-regional replication with read access to the replica.
+  
   - Access tier:  There are two available access tier options-
-    a. Hot Access tier:  suitable for frequently accessed data.
-    b. Cool Access tier:  suitable for infrequently accessed data.
+    - Hot Access tier:  suitable for frequently accessed data.
+    - Cool Access tier:  suitable for infrequently accessed data.
 
 The Archive access tier can be set only at the blob level and not for the entire storage account.
 
@@ -70,7 +75,7 @@ Blob is a massively scalable storage object for unstructured data.  It can scale
 
 Go to 'Create Virtual Machine'.  Fill the following required fields
 
-- Basic:
+- **Basic:**
   - Project details (Subscription and Resource Group)
   - Instance details (Virtual Machine Name, Region, Availability options, Image, Size)
   - Create Administrative account (Select Password in Authentication type, give username and create password)
@@ -78,19 +83,19 @@ Go to 'Create Virtual Machine'.  Fill the following required fields
 
 Click Next: Disks >
 
--  Disk options:
+-  **Disk options:**
   - OS disk type (Premium SSD, Standard SSD, Standard HDD)
   - Data disks (default option)
 
 Click Next: Networking >
 
-- Networking:
+- **Networking:**
   - Network interface:  It will be created on its own.
   - Configure Virtual networks (Virtual network, subnet, public IP,  NIC network security group, Public inbound ports, Accelerated networking), use default options.
 
 Click Next: Management >
 
-- Management:
+- **Management:**
   - Monitoring ( Boot diagnostics , OS guest diagnostics, Diagnosticss storage account )
   - Identity (System assigned managed identity)
   - Auto-shutdown ( Enable auto- shutdown)
@@ -98,13 +103,13 @@ Click Next: Management >
 
 Click Next: Guest config >
 
-- Guest config
+- **Guest config:**
   - Extensions
   - Cloud init
 
 Click Next: Tags >
 
-- Tags ( enter Name, Value and Resource)
+- **Tags:** ( enter Name, Value and Resource)
 
 Click Review + Create
 
