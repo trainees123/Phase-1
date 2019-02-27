@@ -42,7 +42,7 @@ Data Models ensure consistency in naming conventions, default values, semantics,
 
 
 
-## Why is data modelling important?
+## Why is data modeling important?
 
 - To ensure efficient use of data as a blueprint for the construction of new software.
 
