@@ -89,7 +89,7 @@ Data centricity is the point of view determining the modeling of primary entity.
 
 
 
-### Conceptual
+### Conceptual Data Model
 
 
 
@@ -137,7 +137,7 @@ Conceptual data models known as Domain models create a common vocabulary for all
 
 
 
-### Logical
+### Logical Data Model
 
 Defines *how* the system should be implemented *regardless* of the DBMS. This model is typically created by Data Architects and Business Analysts. The purpose is to develop technical map of rules and data structures.
 
@@ -150,9 +150,6 @@ Logical data models add further information to the conceptual model elements.
 The advantage of the Logical data model is to provide a foundation to form the base for the Physical model. However, the modeling structure remains generic.
 
 At this Data Modeling level, no primary or secondary key is defined. At this Data modeling level, you need to verify and adjust the connector details that were set earlier for relationships.
-
-
-
 
 
 **Characteristics of a Logical data model:**
@@ -173,7 +170,7 @@ At this Data Modeling level, no primary or secondary key is defined. At this Dat
 
 
 
-### Physical
+### Physical Data Model
 
 > This Data Model describes *how* the system will be implemented using a *specific* DBMS system. This model is typically created by DBA and developers. The purpose is actual implementation of the database.
 
@@ -215,7 +212,7 @@ The accuracy and consistency of stored data is indicated by an absence of any al
 
 
 
-## *Why is it necessary to maintain data integrity?*
+## Why is it necessary to maintain data integrity?
 
 Organizations routinely make data-driven business decisions, and with data without integrity, those decisions can have a dramatic effect on the company’s bottom line goals.  Collection of data is no longer an issue.  The responsible thing to do is to preserve data integrity such that the management can confidently make decisions that steer their company in the right direction.
 
