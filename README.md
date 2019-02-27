@@ -96,7 +96,7 @@ Here the primary key is student_id + subject_id.notice that teacher column only 
 
 |subject_id|subject_name|teacher|
 |----|-----|---------|
-| | | |
+| 3|maths |Mr.Dev |
 
 **3NF(3rd Normal Form)** :For a table to be in 3NF
 + it should be in 2NF
@@ -108,7 +108,7 @@ in scores table add two more columns which are exam_name, total_marks
 
 |score_id|student_id|subject_id|marks|exam_name|total_marks|
 |-----------|--------------|--------------|--------|----------------|-----------------|
-| | | | | | |
+| 4|1003 |2 |46 |Economics | 85|
 
 
 student_id+subject_id is the primary key in scores table.Here total_marks depends only on exam_name which is a non-key attribute.This is Transitive Dependency
@@ -118,4 +118,4 @@ To satisfy 3NF Transitive Dependency should not exist. We make a new table exam 
 
 |exam_name|total_marks|
 |----------------|----|
-| |
+|maths|90 |
