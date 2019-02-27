@@ -68,12 +68,10 @@ The two types of Data Modeling techniques are
 
 
 
-|  Master data  |  Transactional data  |  Look up data  |  Metadata  |
 
+|   Master data   |   Transactional data   |   Look up data   |   Metadata   |
 |  ---  |  ---  |  ---  |
-
 |  Describes an entity that is a person, place or thing  |  Describes the business process that happens between 2 master data entity  |  Describes the codes/ID/ values into which the data is abstracted  |  Data about the previous three types of data  |
-
 |  Eg., Customer name, Hotel, Product  |  Eg., Purchase of a product by a customer, Check in into a hotel  |   Abstraction of the values of attribute eye color as: 1=Green, 2=Blue,3=Brown  |  Data type of column 1 = String  |
 
 
