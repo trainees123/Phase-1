@@ -68,6 +68,7 @@ The two types of Data Modeling techniques are
 
 
 
+
 Master data | Transactional data | Look up data | Metadata 
 
 --- | --- | --- 
